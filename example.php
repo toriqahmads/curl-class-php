@@ -3,7 +3,7 @@
     
     $myinit = new curl();
     $myinit->setUrl("https://detik.com");
-    $myinit->setRef("http://googl.com");
+    $myinit->setRef("http://google.com");
     $myinit->setFollow();
     $myinit->setTransfer();
     $myinit->setHeader();
