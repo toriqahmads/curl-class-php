@@ -9,7 +9,7 @@ $settings = array("url" => "https://detik.com",
                   "follow_location" => true,
                   "return_transfer" => true,
                   "header" => true,
-                  "http_builder" => array("host" => "detik.com",
+                  "header_builder" => array("host" => "detik.com",
                                           "connection" => "keep-alive"),
                   "custom_req" => array("type" => "GET"));
 $curl->settings($settings);
